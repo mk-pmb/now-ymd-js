@@ -1,0 +1,29 @@
+{ "name": "now-ymd",
+  "version": "0.1.0",
+  "description": "Return current date (y)ymmdd as number. Mind the evil overflow at the beginning of each century.",
+  "keywords": [
+    "broken by design",
+    "date",
+    "ymd"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/now-ymd-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/now-ymd-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/now-ymd-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "ymd.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
